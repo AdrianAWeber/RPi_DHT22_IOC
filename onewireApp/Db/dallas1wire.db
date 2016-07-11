@@ -1,0 +1,7 @@
+record (ai, "DS18S20:$(ID):Tmom") {
+  field (DTYP, "dallas1wire")
+  field (INP,  "@$(ID)")
+  # display parameters
+  field (EGU,  "degC")
+  field (PREC, "3")
+}

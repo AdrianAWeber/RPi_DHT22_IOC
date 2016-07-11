@@ -1,0 +1,4 @@
+epicsEnvSet("ARCH","linux-arm")
+epicsEnvSet("IOC","ioconewire")
+epicsEnvSet("TOP","/home/pi/epics/onewire")
+epicsEnvSet("EPICS_BASE","/home/pi/epics/base")
