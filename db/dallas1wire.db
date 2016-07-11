@@ -1,0 +1,8 @@
+record (ai, "$(ID)") {
+  field (SCAN, "2 second")
+  field (DTYP, "dallas1wire")
+  field (INP,  "@$(ID)")
+  # display parameters
+  field (EGU,  "%")
+  field (PREC, "2")
+}
